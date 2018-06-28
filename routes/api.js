@@ -22,7 +22,7 @@ let handlePayment = function() {
   }
   let response = {
     "data" : {
-      "validity" : result,
+      "paymentProcessed" : result,
       "overrideProcessPaymentEnabled" : overrideProcessPayment
     }
   };
